@@ -1,0 +1,35 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: #35dba4;
+}
+h1{
+    color: #f4a511;
+}
+ul>li{
+    font-weight: bold;
+}
+h1+p{
+    background-color: #4d483f;
+    padding: 10px;
+    border-radius: 10px;
+}
+ul li:hover{
+    color: #08e8f3;
+}
+ul li:nth-child(3){
+    background-color: rgb(108, 126, 49);
+}
+p:not(:first-of-type){
+text-decoration: underline;
+}
+ul li::before{
+    content:  "🚀";
+}
+a::after{
+    content: "🌌";
+}
+p::first-letter{
+ font-size: 200%;
+ color: red;
+}
