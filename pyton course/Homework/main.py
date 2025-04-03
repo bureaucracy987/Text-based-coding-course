@@ -1,1 +1,1 @@
-print("My name is Debarjya De and I am aged 10 years old. \nI study in Grade 6 of Birla High School for boys,Moira Street. \nMy hobbies are coding, drawing and reading.")
+print("My name is Debarjya De and I am 10 years old. \nI study in Grade 6 of Indus International School, Bangalore. \nMy hobbies are coding, drawing and reading.")
