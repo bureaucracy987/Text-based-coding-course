@@ -1,0 +1,6 @@
+name=input("enter your name:")
+day=input("enter the day you were born:")
+month=input("enter the month in which you were born:")
+year=input("enter the year in which you were born:")
+place=input("enter where you were born:")
+print("Hello", name, "you were born on", day,"/", month,"/", year,"at", place,".")
