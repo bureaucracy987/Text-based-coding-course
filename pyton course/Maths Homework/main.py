@@ -1,0 +1,16 @@
+print("0")
+import math
+print(math.sin(0))
+print(math.cos(0))
+print(math.tan(0))
+print(math.ceil(0.890))
+print(math.floor(0.890))
+print(math.factorial(0))
+print("90")
+import math
+print(math.sin(90))
+print(math.cos(90))
+print(math.tan(90))
+print(math.ceil(90.890))
+print(math.floor(90.890))
+print(math.factorial(90))
