@@ -5,7 +5,7 @@ def intro():
     print("May I ask you for your name?")
     global name
     name=input()
-    print(name,"we are going to play a game.I am thinking of a number from one to hundred.")
+    print(name,"we are going to play a game. I will guess a number between 1 to hundred and you have to guess it.")
     if (number%2==0):
      x="even"
     else:
@@ -19,7 +19,7 @@ def pick():
         time.sleep(.25)
         enter=input("Guess:")
         try:
-            guess=input(enter)
+            guess=int(enter)
             if guess>1 and guess<100:
                 guessTaken+=1
                 if guessTaken<6:
@@ -39,7 +39,7 @@ def pick():
         except:
             print("I don't think that",enter,"is valid.")  
     if guess == number:
-        print("Good job{}! You guessed my number in {} guesses ".format(name,guessTaken))   
+        print("Good job {}! You guessed my number in {} guesses ".format(name,guessTaken))   
     if guess!= number:
         print("Nope. The number I was thinking of was",number)
 playagain="yes"
@@ -48,6 +48,3 @@ while playagain=="Yes" or playagain=="YES" or playagain=="yes":
     pick()
     playagain=input("Do you want to play again?")
      
-
-
-
