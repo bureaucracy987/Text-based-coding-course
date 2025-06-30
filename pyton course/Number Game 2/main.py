@@ -19,7 +19,7 @@ def pick():
         time.sleep(.25)
         enter=input("Guess:")
         try:
-            guess=input(enter)
+            guess=int(enter)
             if guess>1 and guess<100:
                 guessTaken+=1
                 if guessTaken<6:
@@ -39,7 +39,7 @@ def pick():
         except:
             print("I don't think that",enter,"is valid.")  
     if guess == number:
-        print("Good job{}! You guessed my number in {} guesses ".format(name,guessTaken))   
+        print("Good job {}! You guessed my number in {} guesses ".format(name,guessTaken))   
     if guess!= number:
         print("Nope. The number I was thinking of was",number)
 playagain="yes"
